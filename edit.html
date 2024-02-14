@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Todo</title>
+</head>
+<body>
+<h1>Edit Todo</h1>
+<form id="editForm">
+    <input type="hidden" id="editId">
+    <label for="editTitle">Title:</label><br>
+    <input type="text" id="editTitle" name="editTitle" required><br><br>
+    <label for="editDescription">Description:</label><br>
+    <textarea id="editDescription" name="editDescription" required></textarea><br><br>
+    <button type="button" onclick="submitEditedTodo()">Save Changes</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
